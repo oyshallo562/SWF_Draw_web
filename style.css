@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'PyeongChang-Peace';
+    font-style: light;
+    font-weight: 400;
+    src : url('./PyeongChangPeace-Light.ttf');
+}
+
+@keyframes spin {
+    from { transform: rotateX(0deg); }
+    to { transform: rotateX(360deg); }
+}
+
+body {
+    font-family: 'PyeongChang-Peace';
+}
+
+.selectionBox {
+    background-color: #cccccc;
+    cursor: pointer;
+    width: 100px;
+    height: 70px;
+    transform: translate(10px, 15px);
+}
+
+.slot {
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer; /* Makes it look clickable */
+    text-align: center;
+    font-size: 60px;
+    animation: spin 0.5s ease-in-out;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+}
+
+#title {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    vertical-align: top;
+}
+
+
+#y {
+    color: #F7C514;
+}
+
+body {
+    text-align: center;
+    background-image: url("./back.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
